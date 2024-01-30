@@ -1,0 +1,29 @@
+{
+  "name": "DolyameSDK",
+  "summary": "Dolyame SDK for iOS",
+  "version": "1.0.19",
+  "authors": {
+    "Isaac Weisberg": "a.vaysberg@tinkoff.ru",
+    "Mikhail Kogan": "m.kogan@tinkoff.ru",
+    "Aleksandr Tonkhonoev": "a.tonkhonoev@tinkoff.ru"
+  },
+  "homepage": "https://github.com/Dolyame-iOS/DolyameSDK-iOS",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "source": {
+    "git": "https://github.com/Dolyame-iOS/DolyameSDK-iOS.git",
+    "tag": "1.0.19"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "swift_versions": "5.0",
+  "ios": {
+    "vendored_frameworks": [
+      "Framework/DolyameSDK.xcframework"
+    ]
+  },
+  "swift_version": "5.0"
+}

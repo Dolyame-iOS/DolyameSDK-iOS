@@ -1,0 +1,210 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name DolyameSDK
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AdSupport
+import QuartzCore.CAMediaTimingFunction
+import CommonCrypto
+import QuartzCore.CoreAnimation
+import CoreData
+import CoreFoundation
+import CoreGraphics
+import CoreImage
+import CoreLocation
+import CoreTelephony
+import CryptoKit
+import DeveloperToolsSupport
+import Dispatch
+@_exported import DolyameSDK
+import Foundation
+import LocalAuthentication
+import MachO
+import PassKit
+import QuartzCore
+import Security
+import Swift
+import SwiftUI
+import SystemConfiguration
+import UIKit.UIColor
+import UIKit.UIFont
+import UIKit.UIGestureRecognizerSubclass
+import UIKit
+import UserNotifications
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import os.log
+import os
+import os.signpost
+import zlib
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class DolyamePaymentButton : UIView {
+  @_Concurrency.MainActor(unsafe) public var onButtonPressed: (() -> Void)?
+  @_Concurrency.MainActor(unsafe) @objc dynamic public init()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var intrinsicContentSize: CGSize {
+    @objc get
+  }
+  public enum Style {
+    case roundedCorners
+    case sharpCorners
+    case customCornerRadius(CGFloat)
+  }
+  @_Concurrency.MainActor(unsafe) public func applyStyle(_ style: Style)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class Dolyame {
+  public static let shared: DolyameSDK.Dolyame
+  public func logout()
+  @objc deinit
+}
+public enum DolyameUnexpectedEvent {
+  case lessThanRuble
+  case haveSumDifference
+  case haveItemsDifference
+  case wrongPersonData
+  case noPartnerForClient
+  public static func == (a: DolyameSDK.DolyameUnexpectedEvent, b: DolyameSDK.DolyameUnexpectedEvent) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public class DolyamePaymentConfiguration {
+  public struct Order {
+    public struct Item {
+      public let name: String
+      public let quantity: Int
+      public let price: Decimal
+      public let sku: String?
+      public init(name: String, quantity: Int, price: Decimal, sku: String?)
+    }
+    public let id: String
+    public let amount: Decimal
+    public let prepaidAmount: Decimal
+    public let items: [Item]
+    public let mcc: Int
+    public init(id: String, amount: Decimal, prepaidAmount: Decimal, items: [Item], mcc: Int)
+  }
+  public struct Customer {
+    public let id: String
+    public let firstName: String?
+    public let lastName: String?
+    public let middleName: String?
+    public let phone: String?
+    public let birthday: String?
+    public let email: String?
+    public init(id: String, firstName: String?, lastName: String?, middleName: String?, phone: String?, birthday: String?, email: String?)
+  }
+  public struct Partner {
+    public let id: String
+    public let notificationUrl: String?
+    public let demoFlow: Bool
+    public init(id: String, notificationUrl: String?, demoFlow: Bool)
+  }
+  final public let partner: Partner
+  final public let order: Order
+  final public let customer: Customer
+  final public let enableCallKitUsage: Bool
+  public init(partner: Partner, order: Order, customer: Customer, enableCallKitUsage: Bool = true)
+  @objc deinit
+}
+@frozen public enum DolyamePaymentCoordinatorResult {
+  case success
+  case failure
+  case pending
+  case dismissed
+  public static func == (a: DolyameSDK.DolyamePaymentCoordinatorResult, b: DolyameSDK.DolyamePaymentCoordinatorResult) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public class DolyamePaymentCoordinator {
+  public var onFinish: ((DolyamePaymentCoordinatorResult) -> Void)?
+  public var onUnexpectedEvent: ((DolyameUnexpectedEvent) -> Void)?
+  public init(configuration: DolyamePaymentConfiguration, modalHostController: UIViewController)
+  public func start()
+  @objc deinit
+}
+extension UIControl.State : Hashable {
+  public func hash(into hasher: inout Hasher)
+}
+@objc @_inheritsConvenienceInitializers public class EventMO : NSManagedObject {
+  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  @objc deinit
+}
+extension EventMO {
+  @nonobjc public class func fetchRequest() -> NSFetchRequest<EventMO>
+  @objc @NSManaged dynamic public var clientParameters: Data? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var eventParameters: Data? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var name: String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var parameters: Data? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var project: String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var timestamp: Int64 {
+    @objc get
+    @objc set
+  }
+}
+@objc @_inheritsConvenienceInitializers public class LogMO : NSManagedObject {
+  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  @objc deinit
+}
+extension LogMO {
+  @nonobjc public class func fetchRequest() -> NSFetchRequest<LogMO>
+  @objc @NSManaged dynamic public var file: String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var function: String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var level: Int16 {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var line: Int64 {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var message: String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var metadata: Data? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var tag: String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var thread: String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var timestamp: Double {
+    @objc get
+    @objc set
+  }
+}
+extension DolyameSDK.DolyameUnexpectedEvent : Swift.Equatable {}
+extension DolyameSDK.DolyameUnexpectedEvent : Swift.Hashable {}
+extension DolyameSDK.DolyamePaymentCoordinatorResult : Swift.Equatable {}
+extension DolyameSDK.DolyamePaymentCoordinatorResult : Swift.Hashable {}
+extension DolyameSDK.DolyamePaymentCoordinatorResult : Swift.Sendable {}

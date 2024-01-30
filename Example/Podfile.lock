@@ -1,0 +1,23 @@
+PODS:
+  - DolyameSDK (1.0.19)
+  - SnapKit (5.6.0)
+
+DEPENDENCIES:
+  - DolyameSDK (from `../`)
+  - SnapKit
+
+SPEC REPOS:
+  https://nexus.tcsbank.ru/repository/raw-cocoapods/:
+    - SnapKit
+
+EXTERNAL SOURCES:
+  DolyameSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DolyameSDK: 83525194d62c8641304213cc336676f7c88b77fd
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+
+PODFILE CHECKSUM: a58c2d7359d38015abff5a8a2132e7ec4c8e7a57
+
+COCOAPODS: 1.14.3

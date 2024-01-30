@@ -1,0 +1,12 @@
+platform :ios, '12.0'
+
+source 'https://nexus.tcsbank.ru/repository/raw-cocoapods/'
+
+use_frameworks!
+
+target 'DolyameSDKUsageDemo' do
+  project 'DolyameSDKUsageDemo_Partners'
+
+  pod 'DolyameSDK', path: '../'
+  pod 'SnapKit'
+end
