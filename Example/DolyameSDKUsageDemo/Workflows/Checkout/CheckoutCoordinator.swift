@@ -60,7 +60,8 @@ class CheckoutCoordinator {
 
             self.dolyamePaymentCoordinator = dolyamePaymentCoordinator
 
-            dolyamePaymentCoordinator.onFinish = { [weak checkoutViewController] dolyameResult in
+            dolyamePaymentCoordinator.onFinish = { [weak checkoutViewController, weak self] dolyameResult in
+                self?.dolyamePaymentCoordinator = nil
                 let alert = UIAlertController(title: "Dolyame SDK Finished",
                                               message: "Result = \(dolyameResult.readableName)",
                                               preferredStyle: .alert)
@@ -98,8 +99,6 @@ extension DolyamePaymentCoordinatorResult {
         switch self {
         case .failure:
             return "failure"
-        case .pending:
-            return "pending"
         case .success:
             return "success"
         case .dismissed:
