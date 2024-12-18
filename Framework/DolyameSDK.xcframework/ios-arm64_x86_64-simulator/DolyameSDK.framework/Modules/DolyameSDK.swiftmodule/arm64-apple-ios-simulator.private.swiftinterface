@@ -96,7 +96,8 @@ public class DolyamePaymentConfiguration {
     public let id: String
     public let notificationUrl: String?
     public let demoFlow: Bool
-    public init(id: String, notificationUrl: String?, demoFlow: Bool)
+    public let pointId: String?
+    public init(id: String, notificationUrl: String?, demoFlow: Bool, pointId: String? = nil)
   }
   final public let partner: Partner
   final public let order: Order

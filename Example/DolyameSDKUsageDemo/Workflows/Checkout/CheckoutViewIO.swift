@@ -11,6 +11,7 @@ struct CheckoutInputData {
     let isDemoFlow: Bool
 
     let notificationUrl: String?
+    let pointId: String?
 
     let orderId: String
     let orderAmount: Decimal

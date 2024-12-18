@@ -19,6 +19,7 @@ class CheckoutPresenter {
 
     var model: CheckoutModel = CheckoutModel(isDemoFlow: false,
                                              notificationUrl: nil,
+                                             pointId: nil,
                                              orderId: UUID().uuidString,
                                              orderAmount: 6700,
                                              orderPrepaidAmount: 300,
@@ -65,6 +66,7 @@ class CheckoutPresenter {
     private func createInputData(model: CheckoutModel) -> CheckoutInputData {
         CheckoutInputData(isDemoFlow: model.isDemoFlow,
                           notificationUrl: model.notificationUrl,
+                          pointId: model.pointId,
                           orderId: model.orderId,
                           orderAmount: model.orderAmount,
                           orderPrepaidAmount: model.orderPrepaidAmount,
@@ -82,6 +84,7 @@ class CheckoutPresenter {
                                  orderItems: [CheckoutItemModel]) -> CheckoutModel {
         CheckoutModel(isDemoFlow: inputData.isDemoFlow,
                       notificationUrl: inputData.notificationUrl,
+                      pointId: inputData.pointId,
                       orderId: inputData.orderId,
                       orderAmount: inputData.orderAmount,
                       orderPrepaidAmount: inputData.orderPrepaidAmount,

@@ -16,6 +16,7 @@ class CheckoutViewController: UIViewController {
     let demoFlowParamView = SwitchParameterView()
 
     let notificationUrlParamView = ModifiableParameterView()
+    let pointIdParamView = ModifiableParameterView()
 
     let orderIdParamView = ModifiableParameterView()
     let orderAmountParamView = ModifiableParameterView()
@@ -81,6 +82,7 @@ class CheckoutViewController: UIViewController {
 
     func startDolyamePayment() {
         let notificationUrl = inputValueValidator.replaceEmptyStringWithNil(textField: notificationUrlParamView.textField)
+        let pointId = inputValueValidator.replaceEmptyStringWithNil(textField: pointIdParamView.textField)
 
         let orderId = inputValueValidator.validateStringValue(textField: orderIdParamView.textField)
         let orderAmount = inputValueValidator.validateDecimalValue(textField: orderAmountParamView.textField)
@@ -102,6 +104,7 @@ class CheckoutViewController: UIViewController {
             let clientInfoId = clientInfoId {
             let inputData = CheckoutInputData(isDemoFlow: demoFlowParamView.switcher.isOn,
                                               notificationUrl: notificationUrl,
+                                              pointId: pointId,
                                               orderId: orderId,
                                               orderAmount: orderAmount,
                                               orderPrepaidAmount: orderPrepaidAmount,
@@ -182,6 +185,9 @@ class CheckoutViewController: UIViewController {
         stackView.addArrangedSubview(notificationUrlParamView)
         notificationUrlParamView.label.text = "Notification url"
 
+        stackView.addArrangedSubview(pointIdParamView)
+        pointIdParamView.label.text = "Point id"
+
         let orderLabel = UILabel()
         orderLabel.text = "Order"
         stackView.addArrangedSubview(orderLabel)
@@ -233,6 +239,7 @@ extension CheckoutViewController: ICheckoutViewInput {
 
     func configure(with inputData: CheckoutInputData) {
         demoFlowParamView.switcher.setOn(inputData.isDemoFlow, animated: false)
+        pointIdParamView.textField.text = nil
         orderIdParamView.textField.text = inputData.orderId
         orderAmountParamView.textField.text = "\(inputData.orderAmount)"
         orderPrepaidAmountParamView.textField.text = "\(inputData.orderPrepaidAmount)"

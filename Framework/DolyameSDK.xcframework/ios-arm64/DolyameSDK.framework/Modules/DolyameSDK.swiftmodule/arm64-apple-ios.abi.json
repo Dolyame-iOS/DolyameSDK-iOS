@@ -7840,9 +7840,69 @@
                 ]
               },
               {
+                "kind": "Var",
+                "name": "pointId",
+                "printedName": "pointId",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10DolyameSDK0A20PaymentConfigurationC7PartnerV7pointIdSSSgvp",
+                "mangledName": "$s10DolyameSDK0A20PaymentConfigurationC7PartnerV7pointIdSSSgvp",
+                "moduleName": "DolyameSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10DolyameSDK0A20PaymentConfigurationC7PartnerV7pointIdSSSgvg",
+                    "mangledName": "$s10DolyameSDK0A20PaymentConfigurationC7PartnerV7pointIdSSSgvg",
+                    "moduleName": "DolyameSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
                 "kind": "Constructor",
                 "name": "init",
-                "printedName": "init(id:notificationUrl:demoFlow:)",
+                "printedName": "init(id:notificationUrl:demoFlow:pointId:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -7875,11 +7935,26 @@
                     "name": "Bool",
                     "printedName": "Swift.Bool",
                     "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "hasDefaultArg": true,
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Constructor",
-                "usr": "s:10DolyameSDK0A20PaymentConfigurationC7PartnerV2id15notificationUrl8demoFlowAESS_SSSgSbtcfc",
-                "mangledName": "$s10DolyameSDK0A20PaymentConfigurationC7PartnerV2id15notificationUrl8demoFlowAESS_SSSgSbtcfc",
+                "usr": "s:10DolyameSDK0A20PaymentConfigurationC7PartnerV2id15notificationUrl8demoFlow7pointIdAESS_SSSgSbAJtcfc",
+                "mangledName": "$s10DolyameSDK0A20PaymentConfigurationC7PartnerV2id15notificationUrl8demoFlow7pointIdAESS_SSSgSbAJtcfc",
                 "moduleName": "DolyameSDK",
                 "declAttributes": [
                   "AccessControl"
@@ -42591,30 +42666,44 @@
     {
       "filePath": "\/Users\/al.i.borisov\/bnpl-partners-sdk\/DolyameSDK\/Model\/TCB\/TCBCreateRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1577,
+      "offset": 1604,
       "length": 13,
       "value": "\"client_info\""
     },
     {
       "filePath": "\/Users\/al.i.borisov\/bnpl-partners-sdk\/DolyameSDK\/Model\/TCB\/TCBCreateRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1639,
+      "offset": 1666,
       "length": 18,
       "value": "\"notification_url\""
     },
     {
       "filePath": "\/Users\/al.i.borisov\/bnpl-partners-sdk\/DolyameSDK\/Model\/TCB\/TCBCreateRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1577,
+      "offset": 1730,
+      "length": 12,
+      "value": "\"partner_id\""
+    },
+    {
+      "filePath": "\/Users\/al.i.borisov\/bnpl-partners-sdk\/DolyameSDK\/Model\/TCB\/TCBCreateRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1604,
       "length": 13,
       "value": "\"client_info\""
     },
     {
       "filePath": "\/Users\/al.i.borisov\/bnpl-partners-sdk\/DolyameSDK\/Model\/TCB\/TCBCreateRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1639,
+      "offset": 1666,
       "length": 18,
       "value": "\"notification_url\""
+    },
+    {
+      "filePath": "\/Users\/al.i.borisov\/bnpl-partners-sdk\/DolyameSDK\/Model\/TCB\/TCBCreateRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1730,
+      "length": 12,
+      "value": "\"partner_id\""
     },
     {
       "filePath": "\/Users\/al.i.borisov\/bnpl-partners-sdk\/DolyameSDK\/ThirdParty\/TinkoffReliabilityKit\/Analytics\/SharedBusinessLogic\/Analytics.swift",
@@ -43908,41 +43997,41 @@
       "filePath": "\/Users\/al.i.borisov\/bnpl-partners-sdk\/DolyameSDK\/Services\/TCBNetworkingService.swift",
       "kind": "StringLiteral",
       "offset": 2679,
-      "length": 24,
-      "value": "\"sdk_android_\""
+      "length": 20,
+      "value": "\"sdk_ios_\""
     },
     {
       "filePath": "\/Users\/al.i.borisov\/bnpl-partners-sdk\/DolyameSDK\/Services\/TCBNetworkingService.swift",
       "kind": "StringLiteral",
-      "offset": 2702,
+      "offset": 2698,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/al.i.borisov\/bnpl-partners-sdk\/DolyameSDK\/Services\/TCBNetworkingService.swift",
       "kind": "IntegerLiteral",
-      "offset": 3433,
+      "offset": 3429,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/al.i.borisov\/bnpl-partners-sdk\/DolyameSDK\/Services\/TCBNetworkingService.swift",
       "kind": "IntegerLiteral",
-      "offset": 4249,
+      "offset": 4245,
       "length": 3,
       "value": "401"
     },
     {
       "filePath": "\/Users\/al.i.borisov\/bnpl-partners-sdk\/DolyameSDK\/Services\/TCBNetworkingService.swift",
       "kind": "BooleanLiteral",
-      "offset": 4903,
+      "offset": 4899,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/al.i.borisov\/bnpl-partners-sdk\/DolyameSDK\/Services\/TCBNetworkingService.swift",
       "kind": "BooleanLiteral",
-      "offset": 6224,
+      "offset": 6220,
       "length": 4,
       "value": "true"
     },
@@ -44873,7 +44962,7 @@
     {
       "filePath": "\/Users\/al.i.borisov\/bnpl-partners-sdk\/DolyameSDK\/Services\/TCBOrderService.swift",
       "kind": "IntegerLiteral",
-      "offset": 10914,
+      "offset": 11000,
       "length": 3,
       "value": "422"
     },
@@ -45552,7 +45641,7 @@
     {
       "filePath": "\/Users\/al.i.borisov\/bnpl-partners-sdk\/DolyameSDK\/DolyamePaymentConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 2675,
+      "offset": 2790,
       "length": 4,
       "value": "true"
     },
@@ -48602,14 +48691,14 @@
       "value": "0"
     },
     {
-      "filePath": "\/var\/folders\/_c\/4h82xj593cg3bxybn5zsl49m0000gq\/T\/d20240806-2313-t6jy9l\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DolyameSDK\/IntermediateBuildFilesPath\/DolyameSDK.build\/Release-iphoneos\/DolyameSDK.build\/DerivedSources\/CoreDataGenerated\/Events\/EventMO+CoreDataProperties.swift",
+      "filePath": "\/var\/folders\/_c\/4h82xj593cg3bxybn5zsl49m0000gq\/T\/d20241218-56404-rh3jze\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DolyameSDK\/IntermediateBuildFilesPath\/DolyameSDK.build\/Release-iphoneos\/DolyameSDK.build\/DerivedSources\/CoreDataGenerated\/Events\/EventMO+CoreDataProperties.swift",
       "kind": "StringLiteral",
       "offset": 354,
       "length": 9,
       "value": "\"EventMO\""
     },
     {
-      "filePath": "\/var\/folders\/_c\/4h82xj593cg3bxybn5zsl49m0000gq\/T\/d20240806-2313-t6jy9l\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DolyameSDK\/IntermediateBuildFilesPath\/DolyameSDK.build\/Release-iphoneos\/DolyameSDK.build\/DerivedSources\/CoreDataGenerated\/Sage\/LogMO+CoreDataProperties.swift",
+      "filePath": "\/var\/folders\/_c\/4h82xj593cg3bxybn5zsl49m0000gq\/T\/d20241218-56404-rh3jze\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DolyameSDK\/IntermediateBuildFilesPath\/DolyameSDK.build\/Release-iphoneos\/DolyameSDK.build\/DerivedSources\/CoreDataGenerated\/Sage\/LogMO+CoreDataProperties.swift",
       "kind": "StringLiteral",
       "offset": 346,
       "length": 7,

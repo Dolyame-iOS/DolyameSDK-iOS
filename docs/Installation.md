@@ -4,7 +4,7 @@
 
 Добавьте в Podfile:
 ```ruby
-	pod 'DolyameSDK',  :git => 'https://github.com/Dolyame-iOS/DolyameSDK-iOS.git'
+pod 'DolyameSDK'
 ```
 
 ### Установка через Carthage

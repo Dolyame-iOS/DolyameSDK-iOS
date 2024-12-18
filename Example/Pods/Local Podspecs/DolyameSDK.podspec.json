@@ -1,9 +1,9 @@
 {
   "name": "DolyameSDK",
   "summary": "Dolyame SDK for iOS",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "authors": {
-    "Aleksandr Borisov": "al.i.borisov@dolyame.ru"
+    "iOS developer": "help@dolyame.ru"
   },
   "homepage": "https://github.com/Dolyame-iOS/DolyameSDK-iOS",
   "license": {
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/Dolyame-iOS/DolyameSDK-iOS.git",
-    "tag": "2.0.0"
+    "tag": "2.1.0"
   },
   "platforms": {
     "ios": "12.0"
