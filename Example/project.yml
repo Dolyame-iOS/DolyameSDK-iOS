@@ -2,7 +2,7 @@
 
 name: DolyameSDKUsageDemo_Partners
 settings:
-  DEVELOPMENT_TEAM: Z8MAVG5W47
+  DEVELOPMENT_TEAM: 7PZA53CVLX
   ENABLE_BITCODE: false
 
 targets:
@@ -14,16 +14,16 @@ targets:
     sources: [DolyameSDKUsageDemo]
     settings:
       base:
-        MARKETING_VERSION: 2.1.0
+        MARKETING_VERSION: 2.2.0
         CURRENT_PROJECT_VERSION: 1
         BUILD_LIBRARY_FOR_DISTRIBUTION: true
-        PRODUCT_BUNDLE_IDENTIFIER: ru.tcsenterprise.core.ios.dolyamesdk
+        PRODUCT_BUNDLE_IDENTIFIER: com.mc.walker.bnpl-mobile-dev-platform.DolyameSDK
         TARGETED_DEVICE_FAMILY: 1
-        DEVELOPMENT_TEAM: Z8MAVG5W47
+        DEVELOPMENT_TEAM: 7PZA53CVLX
       configs:
         Debug:
-          PROVISIONING_PROFILE_SPECIFIER: "match Development ru.tcsenterprise.core.ios.dolyamesdk"
-          CODE_SIGN_IDENTITY: "Apple Development: iOS Automation (32CR662BJU)"
+          PROVISIONING_PROFILE_SPECIFIER: "match Development com.mc.walker.bnpl-mobile-dev-platform.DolyameSDK"
+          CODE_SIGN_IDENTITY: "iPhone Developer"
         Release:
-          PROVISIONING_PROFILE_SPECIFIER: "match InHouse ru.tcsenterprise.core.ios.dolyamesdk"
-          CODE_SIGN_IDENTITY: "iPhone Distribution: TINKOFF TSENTR RAZRABOTKI, OOO"
+          PROVISIONING_PROFILE_SPECIFIER: "match InHouse com.mc.walker.bnpl-mobile-dev-platform.DolyameSDK"
+          CODE_SIGN_IDENTITY: "iPhone Distribution"
