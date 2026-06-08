@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
 // swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name DolyameSDK
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
 import AdSupport
 import QuartzCore.CAMediaTimingFunction
 import CommonCrypto
@@ -73,7 +73,9 @@ public class DolyamePaymentConfiguration {
       public let quantity: Int
       public let price: Decimal
       public let sku: String?
+      #if compiler(>=5.3) && $NonescapableTypes
       public init(name: String, quantity: Int, price: Decimal, sku: String?)
+      #endif
     }
     public let id: String
     public let amount: Decimal
@@ -90,14 +92,18 @@ public class DolyamePaymentConfiguration {
     public let phone: String?
     public let birthday: String?
     public let email: String?
+    #if compiler(>=5.3) && $NonescapableTypes
     public init(id: String, firstName: String?, lastName: String?, middleName: String?, phone: String?, birthday: String?, email: String?)
+    #endif
   }
   public struct Partner {
     public let id: String
     public let notificationUrl: String?
     public let demoFlow: Bool
     public let pointId: String?
+    #if compiler(>=5.3) && $NonescapableTypes
     public init(id: String, notificationUrl: String?, demoFlow: Bool, pointId: String? = nil)
+    #endif
   }
   final public let partner: Partner
   final public let order: Order
@@ -123,80 +129,114 @@ public class DolyamePaymentCoordinator {
   public func start()
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers public class EventMO : NSManagedObject {
-  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+public typealias EventMOCoreDataClassSet = NSSet
+@objc @_inheritsConvenienceInitializers nonisolated public class EventMO : NSManagedObject {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc override nonisolated dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  #endif
   @objc deinit
 }
+public typealias EventMOCoreDataPropertiesSet = NSSet
 extension EventMO {
   @nonobjc public class func fetchRequest() -> NSFetchRequest<EventMO>
-  @objc @NSManaged dynamic public var clientParameters: Data? {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var clientParameters: Data? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var eventParameters: Data? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var eventParameters: Data? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var name: String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var name: String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var parameters: Data? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var parameters: Data? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var project: String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var project: String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var timestamp: Int64 {
+  #endif
+  @objc @NSManaged nonisolated dynamic public var timestamp: Int64 {
     @objc get
     @objc set
   }
 }
-@objc @_inheritsConvenienceInitializers public class LogMO : NSManagedObject {
-  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+public typealias EventsFoundationFrameworkSet = NSSet
+public typealias EventsCoreDataFrameworkManagedObject = NSManagedObject
+public typealias LogMOCoreDataClassSet = NSSet
+@objc @_inheritsConvenienceInitializers nonisolated public class LogMO : NSManagedObject {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc override nonisolated dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  #endif
   @objc deinit
 }
+public typealias LogMOCoreDataPropertiesSet = NSSet
 extension LogMO {
   @nonobjc public class func fetchRequest() -> NSFetchRequest<LogMO>
-  @objc @NSManaged dynamic public var file: String? {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var file: String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var function: String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var function: String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var level: Int16 {
+  #endif
+  @objc @NSManaged nonisolated dynamic public var level: Int16 {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var line: Int64 {
+  @objc @NSManaged nonisolated dynamic public var line: Int64 {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var message: String? {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var message: String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var metadata: Data? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var metadata: Data? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var tag: String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var tag: String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var thread: String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var thread: String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var timestamp: Double {
+  #endif
+  @objc @NSManaged nonisolated dynamic public var timestamp: Double {
     @objc get
     @objc set
   }
 }
+public typealias SageFoundationFrameworkSet = NSSet
+public typealias SageCoreDataFrameworkManagedObject = NSManagedObject
 extension DolyameSDK.DolyameUnexpectedEvent : Swift.Equatable {}
 extension DolyameSDK.DolyameUnexpectedEvent : Swift.Hashable {}
 extension DolyameSDK.DolyamePaymentCoordinatorResult : Swift.Equatable {}

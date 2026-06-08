@@ -50,7 +50,7 @@ class CheckoutPresenter {
                                              clientInfoFirstName: "Оксана",
                                              clientInfoLastName: "Чичваркин",
                                              clientInfoMiddleName: "Валерьевна",
-                                             clientInfoPhone: "+79876874585",
+                                             clientInfoPhone: "+79231463330",
                                              clientInfoBirthday: "17.10.1989",
                                              clientInfoEmail: nil)
 

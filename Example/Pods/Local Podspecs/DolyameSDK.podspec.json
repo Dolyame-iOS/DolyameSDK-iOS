@@ -1,7 +1,7 @@
 {
   "name": "DolyameSDK",
   "summary": "Dolyame SDK for iOS",
-  "version": "2.1.0",
+  "version": "2.2.1",
   "authors": {
     "iOS developer": "help@dolyame.ru"
   },
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/Dolyame-iOS/DolyameSDK-iOS.git",
-    "tag": "2.1.0"
+    "tag": "2.2.1"
   },
   "platforms": {
     "ios": "12.0"
