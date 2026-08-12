@@ -38,65 +38,9 @@ URL на который будет приходить вебхук вы може
 
 # Секция 0: `NSAppTransportSecurity` в `Info.plist`
 
-Нужно добавить `qr.nspk.ru`, `cdn-tinkoff.ru`, `tinkoff.ru`, `tcsbank.ru` и `dolyame.ru` в App Transport Security - Excluded Domains. Для каждого из них нужно сделать `AllowsInsecureHTTPLoads = YES` и, обязательно, `NSIncludesSubdomains = YES`. Также необходимо указать свойство `AllowsArbitraryLoadsInWebContent = YES`.
+Все endpoints SDK используют HTTPS. Никаких дополнительных настроек `NSAppTransportSecurity` **не требуется**.
 
-<details>
-    <summary>Вот так будет выглядеть секция Info для таргета вашего приложения</summary>
-
-![A screenshot from Xcode](./docs/res/app-transport-sec.png)
-
-</details>
-<details>
-    <summary>Пример raw Info.plist с нужными значениями</summary>
-
-```text.xml.plist
-<key>NSAppTransportSecurity</key>
-<dict>
-    <key>NSAllowsArbitraryLoads</key>
-    <false/>
-    <key>NSAllowsArbitraryLoadsInWebContent</key>
-    <true/>
-    <key>NSExceptionDomains</key>
-    <dict>
-        <key>qr.nspk.ru</key>
-        <dict>
-            <key>NSExceptionAllowsInsecureHTTPLoads</key>
-            <true/>
-            <key>NSIncludesSubdomains</key>
-            <true/>
-        </dict>
-        <key>cdn-tinkoff.ru</key>
-        <dict>
-            <key>NSExceptionAllowsInsecureHTTPLoads</key>
-            <true/>
-            <key>NSIncludesSubdomains</key>
-            <true/>
-        </dict>
-        <key>tinkoff.ru</key>
-        <dict>
-            <key>NSExceptionAllowsInsecureHTTPLoads</key>
-            <true/>
-            <key>NSIncludesSubdomains</key>
-            <true/>
-        </dict>
-        <key>tcsbank.ru</key>
-        <dict>
-            <key>NSExceptionAllowsInsecureHTTPLoads</key>
-            <true/>
-            <key>NSIncludesSubdomains</key>
-            <true/>
-        </dict>
-        <key>dolyame.ru</key>
-        <dict>
-            <key>NSExceptionAllowsInsecureHTTPLoads</key>
-            <true/>
-            <key>NSIncludesSubdomains</key>
-            <true/>
-        </dict>
-    </dict>
-</dict>
-```
-</details>
+<p style="page-break-after: always;">&nbsp;</p>
 
 # Секция 1: Кнопка "Оплатить Долями"
 
