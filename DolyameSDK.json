@@ -14,5 +14,11 @@
 	"1.0.17": "https://raw.githubusercontent.com/Tinkoff/dolyamesdk-ios/1.0.17/Framework/DolyameSDK.xcframework.zip",
 	"1.0.18": "https://raw.githubusercontent.com/Tinkoff/dolyamesdk-ios/1.0.18/Framework/DolyameSDK.xcframework.zip",
 	"1.0.19": "https://raw.githubusercontent.com/Dolyame-iOS/DolyameSDK-iOS/1.0.19/Framework/DolyameSDK.xcframework.zip",
-	"2.0.0": "https://raw.githubusercontent.com/Dolyame-iOS/DolyameSDK-iOS/2.0.0/Framework/DolyameSDK.xcframework.zip"
+    "2.0.0": "https://raw.githubusercontent.com/Dolyame-iOS/DolyameSDK-iOS/2.0.0/Framework/DolyameSDK.xcframework.zip",
+    "2.1.0": "https://raw.githubusercontent.com/Dolyame-iOS/DolyameSDK-iOS/2.1.0/Framework/DolyameSDK.xcframework.zip",
+    "2.2.0": "https://raw.githubusercontent.com/Dolyame-iOS/DolyameSDK-iOS/2.2.0/Framework/DolyameSDK.xcframework.zip",
+	"2.2.1": "https://raw.githubusercontent.com/Dolyame-iOS/DolyameSDK-iOS/2.2.1/Framework/DolyameSDK.xcframework.zip",
+    "2.2.2": "https://raw.githubusercontent.com/Dolyame-iOS/DolyameSDK-iOS/2.2.2/Framework/DolyameSDK.xcframework.zip",
+	"2.2.3": "https://raw.githubusercontent.com/Dolyame-iOS/DolyameSDK-iOS/2.2.3/Framework/DolyameSDK.xcframework.zip",
+	"2.2.4": "https://raw.githubusercontent.com/Dolyame-iOS/DolyameSDK-iOS/2.2.4/Framework/DolyameSDK.xcframework.zip"
 }
