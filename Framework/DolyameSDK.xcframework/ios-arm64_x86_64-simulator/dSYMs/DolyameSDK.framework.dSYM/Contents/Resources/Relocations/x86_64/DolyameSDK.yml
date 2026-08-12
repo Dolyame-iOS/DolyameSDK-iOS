@@ -1,6 +1,6 @@
 ---
 triple:          'x86_64-apple-darwin'
-binary-path:     '/var/folders/6c/zs1rgrmd7fb9psqczzq4r6200000gq/T/d20260713-41763-woz4vv/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/DolyameSDK/InstallationBuildProductsLocation/Library/Frameworks/DolyameSDK.framework/DolyameSDK'
+binary-path:     '/var/folders/6c/zs1rgrmd7fb9psqczzq4r6200000gq/T/d20260812-87827-8wuh6h/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/DolyameSDK/InstallationBuildProductsLocation/Library/Frameworks/DolyameSDK.framework/DolyameSDK'
 relocations:
   - { offset: 0x148EBC, size: 0x8, addend: 0x0, symName: _DolyameSDKVersionString, symObjAddr: 0x0, symBinAddr: 0x154FB0, symSize: 0x0 }
   - { offset: 0x148EF1, size: 0x8, addend: 0x0, symName: _DolyameSDKVersionNumber, symObjAddr: 0x30, symBinAddr: 0x154FE0, symSize: 0x0 }
@@ -1073,7 +1073,7 @@ relocations:
   - { offset: 0x1768AB, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK57ReliabilityKitFeatureTogglesPersonalizationFailParametersCSeAASe4fromxs7Decoder_p_tKcfCTW', symObjAddr: 0xAC0, symBinAddr: 0x2A6D0, symSize: 0x50 }
   - { offset: 0x1768D4, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK57ReliabilityKitFeatureTogglesPersonalizationFailParametersCSEAASE6encode2toys7Encoder_p_tKFTW', symObjAddr: 0xB10, symBinAddr: 0x2A720, symSize: 0x20 }
   - { offset: 0x1768EE, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK57ReliabilityKitFeatureTogglesPersonalizationFailParametersC15ErrortypeValuesO8rawValueAESgSS_tcfCTf4nd_n', symObjAddr: 0xC60, symBinAddr: 0x2A7D0, symSize: 0x80 }
-  - { offset: 0x176BF2, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK13BasicStrategyC10cacheFirstAA05CachefD0CvpZ', symObjAddr: 0x4E60, symBinAddr: 0x239820, symSize: 0x0 }
+  - { offset: 0x176BF2, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK13BasicStrategyC10cacheFirstAA05CachefD0CvpZ', symObjAddr: 0x4E68, symBinAddr: 0x239820, symSize: 0x0 }
   - { offset: 0x176CC4, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK13BasicStrategyCMa', symObjAddr: 0x130, symBinAddr: 0x2A990, symSize: 0x20 }
   - { offset: 0x176CD8, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK23ResolutionStrategyErrorOACs0E0AAWl', symObjAddr: 0x180, symBinAddr: 0x2A9E0, symSize: 0x30 }
   - { offset: 0x176CEC, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK13BasicStrategyC10cacheFirst_WZ', symObjAddr: 0x1B0, symBinAddr: 0x2AA10, symSize: 0x30 }
@@ -3079,7 +3079,7 @@ relocations:
   - { offset: 0x1DCFAD, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK13ConfigStorageC04loadC14FromFileSystem33_F70FCED7549C6F6EB93D56B21194D243LLAA013PartnerServerC0VSgyF', symObjAddr: 0x180, symBinAddr: 0x878A0, symSize: 0x360 }
   - { offset: 0x1DD122, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK13ConfigStorageCfD', symObjAddr: 0x4E0, symBinAddr: 0x87C00, symSize: 0x60 }
   - { offset: 0x1DD3F1, size: 0x8, addend: 0x0, symName: '_$s10Foundation3URLV10DolyameSDKE12legacyStringACSgSS_tcfC', symObjAddr: 0x0, symBinAddr: 0x87E00, symSize: 0x130 }
-  - { offset: 0x1DD415, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK11TCBEndpointO7baseUrl10Foundation3URLVSgvpZ', symObjAddr: 0x4ED0, symBinAddr: 0x239AD0, symSize: 0x0 }
+  - { offset: 0x1DD415, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK11TCBEndpointO7baseUrl10Foundation3URLVSgvpZ', symObjAddr: 0x4ED8, symBinAddr: 0x239AD0, symSize: 0x0 }
   - { offset: 0x1DD42E, size: 0x8, addend: 0x0, symName: '_$s10Foundation3URLV10DolyameSDKE12legacyStringACSgSS_tcfC', symObjAddr: 0x0, symBinAddr: 0x87E00, symSize: 0x130 }
   - { offset: 0x1DD47A, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK11TCBEndpointO7baseUrl_WZ', symObjAddr: 0x1B0, symBinAddr: 0x87F30, symSize: 0x70 }
   - { offset: 0x1DD576, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK11TCBEndpointOMa', symObjAddr: 0x650, symBinAddr: 0x88190, symSize: 0x10 }
@@ -6241,7 +6241,7 @@ relocations:
   - { offset: 0x27D9E9, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK15GroupIdentifierOSYAASY8rawValue03RawF0QzvgTW', symObjAddr: 0x8E0, symBinAddr: 0x122670, symSize: 0x50 }
   - { offset: 0x27DCE8, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK17WindowCoordinatorCMa', symObjAddr: 0x20, symBinAddr: 0x122700, symSize: 0x14 }
   - { offset: 0x27DF9E, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK23GlobalValidatorsFactoryCfD', symObjAddr: 0x0, symBinAddr: 0x122720, symSize: 0x50 }
-  - { offset: 0x27DFC2, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK23GlobalValidatorsFactoryC6sharedACvpZ', symObjAddr: 0x4A80, symBinAddr: 0x239C00, symSize: 0x0 }
+  - { offset: 0x27DFC2, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK23GlobalValidatorsFactoryC6sharedACvpZ', symObjAddr: 0x4A88, symBinAddr: 0x239C00, symSize: 0x0 }
   - { offset: 0x27E0C3, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK23GlobalValidatorsFactoryCMa', symObjAddr: 0x50, symBinAddr: 0x122770, symSize: 0x20 }
   - { offset: 0x27E1D4, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK23GlobalValidatorsFactoryC6shared_WZ', symObjAddr: 0x130, symBinAddr: 0x1227F0, symSize: 0x1D0 }
   - { offset: 0x27E309, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK23GlobalValidatorsFactoryCfD', symObjAddr: 0x0, symBinAddr: 0x122720, symSize: 0x50 }

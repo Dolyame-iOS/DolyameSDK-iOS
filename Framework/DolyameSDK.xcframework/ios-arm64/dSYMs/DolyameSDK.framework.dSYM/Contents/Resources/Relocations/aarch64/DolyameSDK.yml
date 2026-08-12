@@ -1,6 +1,6 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/var/folders/6c/zs1rgrmd7fb9psqczzq4r6200000gq/T/d20260713-41763-woz4vv/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/DolyameSDK/InstallationBuildProductsLocation/Library/Frameworks/DolyameSDK.framework/DolyameSDK'
+binary-path:     '/var/folders/6c/zs1rgrmd7fb9psqczzq4r6200000gq/T/d20260812-87827-8wuh6h/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/DolyameSDK/InstallationBuildProductsLocation/Library/Frameworks/DolyameSDK.framework/DolyameSDK'
 relocations:
   - { offset: 0x144AE0, size: 0x8, addend: 0x0, symName: _DolyameSDKVersionString, symObjAddr: 0x0, symBinAddr: 0x1428A0, symSize: 0x0 }
   - { offset: 0x144B15, size: 0x8, addend: 0x0, symName: _DolyameSDKVersionNumber, symObjAddr: 0x30, symBinAddr: 0x1428D0, symSize: 0x0 }
@@ -2155,7 +2155,7 @@ relocations:
   - { offset: 0x1A54F4, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK9TCSButtonC5StyleV26dolyameSmartFormNextButtonAEvgZTf4d_n', symObjAddr: 0x0, symBinAddr: 0x58E78, symSize: 0x324 }
   - { offset: 0x1A5B1B, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK13MetricsFacadeO3box33_DA709D5C80433006094E49D898580CE4LLAA3BoxAELLCvpZ', symObjAddr: 0x998, symBinAddr: 0x205188, symSize: 0x0 }
   - { offset: 0x1A5CB2, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK13MetricsFacadeO14metricsStorage33_DA709D5C80433006094E49D898580CE4LLAA08InMemorycF0CvpZ', symObjAddr: 0x9A0, symBinAddr: 0x205190, symSize: 0x0 }
-  - { offset: 0x1A5D05, size: 0x8, addend: 0x0, symName: '_$sSo17OS_dispatch_queueC10DolyameSDKE12metricsQueueABvpZ', symObjAddr: 0x8F90, symBinAddr: 0x232848, symSize: 0x0 }
+  - { offset: 0x1A5D05, size: 0x8, addend: 0x0, symName: '_$sSo17OS_dispatch_queueC10DolyameSDKE12metricsQueueABvpZ', symObjAddr: 0x8F88, symBinAddr: 0x232848, symSize: 0x0 }
   - { offset: 0x1A5DD0, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK13MetricsFacadeO3box33_DA709D5C80433006094E49D898580CE4LL_WZ', symObjAddr: 0x58, symBinAddr: 0x591F4, symSize: 0x78 }
   - { offset: 0x1A5E29, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK13MetricsFacadeO14metricsStorage33_DA709D5C80433006094E49D898580CE4LL_WZ', symObjAddr: 0xD0, symBinAddr: 0x5926C, symSize: 0x3C }
   - { offset: 0x1A5E78, size: 0x8, addend: 0x0, symName: '_$sSo17OS_dispatch_queueC10DolyameSDKE12metricsQueue_WZ', symObjAddr: 0x110, symBinAddr: 0x592AC, symSize: 0x1A4 }
@@ -2997,8 +2997,8 @@ relocations:
   - { offset: 0x1CDB5A, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK9AnalyticsC3log5event4with20shouldSendToTrackersySS_SDySSAA0C9Parameter_pGSgSbtFyAA23IAnalyticsSystemUntyped_pcfU_TA', symObjAddr: 0x104, symBinAddr: 0x7D7AC, symSize: 0x14 }
   - { offset: 0x1CDB6E, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK9AnalyticsC08withEachC6System2doyyAA010IAnalyticsF7Untyped_pc_tFyycfU_TA', symObjAddr: 0x144, symBinAddr: 0x7D7EC, symSize: 0xC }
   - { offset: 0x1CDEE4, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK19CustomMaskFormatterC9textInput_24shouldChangeCharactersIn17replacementStringSbSo10UITextViewC_So8_NSRangeVSStF', symObjAddr: 0x0, symBinAddr: 0x7D7F8, symSize: 0x724 }
-  - { offset: 0x1CDF08, size: 0x8, addend: 0x0, symName: '_$s10Foundation12CharacterSetV10DolyameSDKE5latinACvpZ', symObjAddr: 0x6EE0, symBinAddr: 0x232A68, symSize: 0x0 }
-  - { offset: 0x1CDF22, size: 0x8, addend: 0x0, symName: '_$s10Foundation12CharacterSetV10DolyameSDKE8cyrillicACvpZ', symObjAddr: 0x6EF8, symBinAddr: 0x232A80, symSize: 0x0 }
+  - { offset: 0x1CDF08, size: 0x8, addend: 0x0, symName: '_$s10Foundation12CharacterSetV10DolyameSDKE5latinACvpZ', symObjAddr: 0x6ED8, symBinAddr: 0x232A68, symSize: 0x0 }
+  - { offset: 0x1CDF22, size: 0x8, addend: 0x0, symName: '_$s10Foundation12CharacterSetV10DolyameSDKE8cyrillicACvpZ', symObjAddr: 0x6EF0, symBinAddr: 0x232A80, symSize: 0x0 }
   - { offset: 0x1CE11C, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK19CustomMaskFormatterCfE', symObjAddr: 0x724, symBinAddr: 0x7DF1C, symSize: 0x8 }
   - { offset: 0x1CE16C, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK19CustomMaskFormatterCMa', symObjAddr: 0x760, symBinAddr: 0x7DF58, symSize: 0x20 }
   - { offset: 0x1CE180, size: 0x8, addend: 0x0, symName: '_$s10Foundation12CharacterSetV10DolyameSDKE5latin_WZ', symObjAddr: 0x780, symBinAddr: 0x7DF78, symSize: 0x60 }
@@ -3710,10 +3710,10 @@ relocations:
   - { offset: 0x1EB014, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK19PendingScreenConfigV4fromACs7Decoder_p_tKcfCTf4nd_n', symObjAddr: 0x3BA4, symBinAddr: 0x9B058, symSize: 0x24C }
   - { offset: 0x1EB037, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK19PartnerServerConfigV10CodingKeysO8rawValueAESgSS_tcfCTf4nd_n', symObjAddr: 0x3DF0, symBinAddr: 0x9B2A4, symSize: 0x84 }
   - { offset: 0x1EB06E, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK19PartnerServerConfigV4fromACs7Decoder_p_tKcfCTf4nd_n', symObjAddr: 0x3E74, symBinAddr: 0x9B328, symSize: 0xC54 }
-  - { offset: 0x1EB388, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK18ChainableErrorKeysO13failureReasonSSvpZ', symObjAddr: 0xA280, symBinAddr: 0x232AD0, symSize: 0x0 }
-  - { offset: 0x1EB3A2, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK18ChainableErrorKeysO010underlyingD0SSvpZ', symObjAddr: 0xA290, symBinAddr: 0x232AE0, symSize: 0x0 }
-  - { offset: 0x1EB3BC, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK18ChainableErrorKeysO10helpAnchorSSvpZ', symObjAddr: 0xA2A0, symBinAddr: 0x232AF0, symSize: 0x0 }
-  - { offset: 0x1EB3D6, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK18ChainableErrorKeysO20localizedDescriptionSSvpZ', symObjAddr: 0xA2B0, symBinAddr: 0x232B00, symSize: 0x0 }
+  - { offset: 0x1EB388, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK18ChainableErrorKeysO13failureReasonSSvpZ', symObjAddr: 0xA278, symBinAddr: 0x232AD0, symSize: 0x0 }
+  - { offset: 0x1EB3A2, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK18ChainableErrorKeysO010underlyingD0SSvpZ', symObjAddr: 0xA288, symBinAddr: 0x232AE0, symSize: 0x0 }
+  - { offset: 0x1EB3BC, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK18ChainableErrorKeysO10helpAnchorSSvpZ', symObjAddr: 0xA298, symBinAddr: 0x232AF0, symSize: 0x0 }
+  - { offset: 0x1EB3D6, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK18ChainableErrorKeysO20localizedDescriptionSSvpZ', symObjAddr: 0xA2A8, symBinAddr: 0x232B00, symSize: 0x0 }
   - { offset: 0x1EB46D, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK14ChainableErrorPAAE13errorUserInfoSDySSypGvg', symObjAddr: 0xCC, symBinAddr: 0x9F7F4, symSize: 0x3A0 }
   - { offset: 0x1EB70C, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK14ChainableErrorPAAE011findChainedD6OfTypeyqd__Sgqd__mlF', symObjAddr: 0x46C, symBinAddr: 0x9FB94, symSize: 0x2F4 }
   - { offset: 0x1EB7B0, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK18ChainableErrorKeysO13failureReason_WZ', symObjAddr: 0x760, symBinAddr: 0x9FE88, symSize: 0x2C }
@@ -5658,12 +5658,12 @@ relocations:
   - { offset: 0x2580ED, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK13CPUParametersCSEAASE6encode2toys7Encoder_p_tKFTW', symObjAddr: 0xE8C, symBinAddr: 0xF7924, symSize: 0x40 }
   - { offset: 0x258101, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK13RAMParametersC10CodingKeys33_302DEE3E0868477630FE799E101AFEE1LLO11stringValueAFSgSS_tcfCTf4nd_n', symObjAddr: 0x1570, symBinAddr: 0xF7CC0, symSize: 0x1CC }
   - { offset: 0x2581E1, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK13CPUParametersC10CodingKeys33_302DEE3E0868477630FE799E101AFEE1LLO11stringValueAFSgSS_tcfCTf4nd_n', symObjAddr: 0x173C, symBinAddr: 0xF7E8C, symSize: 0x1C4 }
-  - { offset: 0x25859C, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK23SmartFieldsLocalizationO6CommonO14dateMonthErrorSSvpZ', symObjAddr: 0x4CF0, symBinAddr: 0x232B60, symSize: 0x0 }
-  - { offset: 0x2585B6, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK23SmartFieldsLocalizationO6CommonO12dateNotExistSSvpZ', symObjAddr: 0x4D00, symBinAddr: 0x232B70, symSize: 0x0 }
-  - { offset: 0x2585D0, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK23SmartFieldsLocalizationO6CommonO4doneSSvpZ', symObjAddr: 0x4D10, symBinAddr: 0x232B80, symSize: 0x0 }
-  - { offset: 0x2585EA, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK23SmartFieldsLocalizationO6CommonO4nextSSvpZ', symObjAddr: 0x4D20, symBinAddr: 0x232B90, symSize: 0x0 }
-  - { offset: 0x258604, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK23SmartFieldsLocalizationO10ValidationO23russianPhoneLengthErrorSSvpZ', symObjAddr: 0x4D30, symBinAddr: 0x232BA0, symSize: 0x0 }
-  - { offset: 0x25861E, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK23SmartFieldsLocalizationO10ValidationO30russianPhoneOperatorsCodeErrorSSvpZ', symObjAddr: 0x4D40, symBinAddr: 0x232BB0, symSize: 0x0 }
+  - { offset: 0x25859C, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK23SmartFieldsLocalizationO6CommonO14dateMonthErrorSSvpZ', symObjAddr: 0x4CE8, symBinAddr: 0x232B60, symSize: 0x0 }
+  - { offset: 0x2585B6, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK23SmartFieldsLocalizationO6CommonO12dateNotExistSSvpZ', symObjAddr: 0x4CF8, symBinAddr: 0x232B70, symSize: 0x0 }
+  - { offset: 0x2585D0, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK23SmartFieldsLocalizationO6CommonO4doneSSvpZ', symObjAddr: 0x4D08, symBinAddr: 0x232B80, symSize: 0x0 }
+  - { offset: 0x2585EA, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK23SmartFieldsLocalizationO6CommonO4nextSSvpZ', symObjAddr: 0x4D18, symBinAddr: 0x232B90, symSize: 0x0 }
+  - { offset: 0x258604, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK23SmartFieldsLocalizationO10ValidationO23russianPhoneLengthErrorSSvpZ', symObjAddr: 0x4D28, symBinAddr: 0x232BA0, symSize: 0x0 }
+  - { offset: 0x25861E, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK23SmartFieldsLocalizationO10ValidationO30russianPhoneOperatorsCodeErrorSSvpZ', symObjAddr: 0x4D38, symBinAddr: 0x232BB0, symSize: 0x0 }
   - { offset: 0x25870C, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK11BundleToken33_14447ED8FB5FA212844184D90C332E71LLCMa', symObjAddr: 0x7EC, symBinAddr: 0xF883C, symSize: 0x20 }
   - { offset: 0x2587C6, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK23SmartFieldsLocalizationO6CommonO14dateMonthError_WZ', symObjAddr: 0x0, symBinAddr: 0xF8060, symSize: 0x180 }
   - { offset: 0x258832, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK23SmartFieldsLocalizationO6CommonO12dateNotExist_WZ', symObjAddr: 0x180, symBinAddr: 0xF81E0, symSize: 0x180 }
@@ -6360,7 +6360,7 @@ relocations:
   - { offset: 0x277EE3, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK41SFSmartFormPlainExpandedContextControllerC8unfixate33_C5F66BB91A09EB994F2C75B1B99A1C59LL8animatedySb_tF', symObjAddr: 0x188, symBinAddr: 0x115988, symSize: 0xC4 }
   - { offset: 0x277F81, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK41SFSmartFormPlainExpandedContextControllerCfD', symObjAddr: 0x24C, symBinAddr: 0x115A4C, symSize: 0x24 }
   - { offset: 0x278236, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK11ShadowStyleV7default_WZ', symObjAddr: 0x0, symBinAddr: 0x115AA0, symSize: 0x58 }
-  - { offset: 0x27825A, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK11ShadowStyleV7defaultACvpZ', symObjAddr: 0x2958, symBinAddr: 0x232BC8, symSize: 0x0 }
+  - { offset: 0x27825A, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK11ShadowStyleV7defaultACvpZ', symObjAddr: 0x2950, symBinAddr: 0x232BC8, symSize: 0x0 }
   - { offset: 0x278268, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK11ShadowStyleV7default_WZ', symObjAddr: 0x0, symBinAddr: 0x115AA0, symSize: 0x58 }
   - { offset: 0x278561, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK25SSOErrorSemanticsResolverCMa', symObjAddr: 0x10, symBinAddr: 0x115AF8, symSize: 0x20 }
   - { offset: 0x278575, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK7CounterCMa', symObjAddr: 0x40, symBinAddr: 0x115B18, symSize: 0x20 }
@@ -7052,8 +7052,8 @@ relocations:
   - { offset: 0x29B760, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK26GlobalNavigationControllerC5coderACSgSo7NSCoderC_tcfcTo', symObjAddr: 0x274, symBinAddr: 0x12FF30, symSize: 0x80 }
   - { offset: 0x29B797, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK26GlobalNavigationControllerCfD', symObjAddr: 0x2F4, symBinAddr: 0x12FFB0, symSize: 0x30 }
   - { offset: 0x29BA41, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK24LocalCertificateProviderCMa', symObjAddr: 0x24, symBinAddr: 0x130000, symSize: 0x20 }
-  - { offset: 0x29BD0F, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK17SFSymbolViewStyleV5LabelV7defaultAEvpZ', symObjAddr: 0x2B50, symBinAddr: 0x232D40, symSize: 0x0 }
-  - { offset: 0x29BD3D, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK17SFSymbolViewStyleV5LabelV7bigFontAEvpZ', symObjAddr: 0x2B60, symBinAddr: 0x232D50, symSize: 0x0 }
+  - { offset: 0x29BD0F, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK17SFSymbolViewStyleV5LabelV7defaultAEvpZ', symObjAddr: 0x2B48, symBinAddr: 0x232D40, symSize: 0x0 }
+  - { offset: 0x29BD3D, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK17SFSymbolViewStyleV5LabelV7bigFontAEvpZ', symObjAddr: 0x2B58, symBinAddr: 0x232D50, symSize: 0x0 }
   - { offset: 0x29C01E, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK17SFUserInputSourceOMa', symObjAddr: 0xA8, symBinAddr: 0x1300FC, symSize: 0x10 }
   - { offset: 0x29C0A9, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK17SFUserInputSourceOSQAASQ2eeoiySbx_xtFZTW', symObjAddr: 0xB8, symBinAddr: 0x13010C, symSize: 0x3C }
   - { offset: 0x29CAFF, size: 0x8, addend: 0x0, symName: '_$s10DolyameSDK14SessionManagerCMU', symObjAddr: 0x23FC, symBinAddr: 0x132378, symSize: 0x8 }

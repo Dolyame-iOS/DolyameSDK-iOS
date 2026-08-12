@@ -1,6 +1,6 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/var/folders/6c/zs1rgrmd7fb9psqczzq4r6200000gq/T/d20260713-41763-woz4vv/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/DolyameSDK/InstallationBuildProductsLocation/Library/Frameworks/DolyameSDK.framework/DolyameSDK'
+binary-path:     '/var/folders/6c/zs1rgrmd7fb9psqczzq4r6200000gq/T/d20260812-87827-8wuh6h/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/DolyameSDK/InstallationBuildProductsLocation/Library/Frameworks/DolyameSDK.framework/DolyameSDK'
 relocations:
   - { offset: 0x143649, size: 0x8, addend: 0x0, symName: _DolyameSDKVersionString, symObjAddr: 0x0, symBinAddr: 0x13F370, symSize: 0x0 }
   - { offset: 0x14367E, size: 0x8, addend: 0x0, symName: _DolyameSDKVersionNumber, symObjAddr: 0x30, symBinAddr: 0x13F3A0, symSize: 0x0 }

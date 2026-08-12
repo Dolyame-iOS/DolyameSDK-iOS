@@ -27,27 +27,19 @@
     import AppKit
 #endif
 
+public protocol ConstraintInsetTarget: ConstraintConstantTarget {}
 
-public protocol ConstraintInsetTarget: ConstraintConstantTarget {
-}
+extension Int: ConstraintInsetTarget {}
 
-extension Int: ConstraintInsetTarget {
-}
+extension UInt: ConstraintInsetTarget {}
 
-extension UInt: ConstraintInsetTarget {
-}
+extension Float: ConstraintInsetTarget {}
 
-extension Float: ConstraintInsetTarget {
-}
+extension Double: ConstraintInsetTarget {}
 
-extension Double: ConstraintInsetTarget {
-}
+extension CGFloat: ConstraintInsetTarget {}
 
-extension CGFloat: ConstraintInsetTarget {
-}
-
-extension ConstraintInsets: ConstraintInsetTarget {
-}
+extension ConstraintInsets: ConstraintInsetTarget {}
 
 extension ConstraintInsetTarget {
 
@@ -68,5 +60,4 @@ extension ConstraintInsetTarget {
             return ConstraintInsets(top: 0, left: 0, bottom: 0, right: 0)
         }
     }
-    
 }
